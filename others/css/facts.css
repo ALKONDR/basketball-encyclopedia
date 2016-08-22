@@ -1,0 +1,35 @@
+h1
+{
+	font-size: 50px;
+	color: #fe7420;
+	letter-spacing: 3px;
+	word-spacing: 15px;
+	text-shadow: 2px 2px 3px rgba(0,0,0,.5);
+	text-transform: uppercase;
+}
+
+.container
+{
+	width: 960px;
+	margin: auto auto;
+	text-align: center;
+	line-height: 100px;
+}
+
+.slider-pro p.sp-layer
+{
+	font-size: 18px;
+}
+
+/*.slider-pro
+{
+	border-radius: 10px;
+}*/
+
+/*@media screen and (max-width: 500px)
+{
+	.container
+	{
+		width: 490px;
+	}
+}*/

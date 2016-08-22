@@ -1,0 +1,749 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, body
+{
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+	background: url(../images/paper_3.png);
+}
+
+/**************************************/
+/****************NAVIGATION************/
+/**************************************/
+.icon
+{
+	position: fixed;
+	height: 60px;
+	width: 60px;
+	background: black;
+	margin: 10px;
+	border-radius: 50%;
+	overflow: hidden;
+	cursor: pointer;
+	z-index: 3;
+	box-shadow: 1px 2px 10px rgba(0,0,0,.4);
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.stick1, .stick2, .stick3
+{
+	position: absolute;
+	height: 3px;
+	width: 30px;
+	background: white;
+	margin: 15px 15px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.stick2
+{
+	margin: 28px 15px;
+}
+
+.stick3
+{
+	margin: 41px 15px;
+}
+
+.nav_head
+{
+	/*color: #d65015;*/
+	color: #ff741f;
+	line-height: 60px;
+	font-size: 47px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.shadow
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	cursor: pointer;
+	z-index: 4;
+}
+
+.nav
+{
+	font-family: Arial;
+	text-align: center;
+	text-transform: uppercase;
+	display: none;
+	/*background: #d69d15;*/
+	background: url(../images/zwartevilt.png);
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	margin-left: 0;
+	height: 100%;
+	width: 355px;
+	z-index: 5;
+}
+
+li
+{
+	/*border-bottom: 1px solid #d65015;*/
+	line-height: 45px;
+	font-size: 25px;
+	text-transform: uppercase;
+	list-style: none;
+	cursor: pointer;
+	color: #fff;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+li:hover
+{
+	background: rgba(255,255,255,.2);
+}
+
+/*******************************/
+/*******************************/
+
+.main-title
+{
+	z-index: 1;
+}
+
+.container
+{
+	z-index: 2;
+}
+
+.main-title
+{
+	height: 100%;
+	text-align: center;
+
+}
+
+.h1_wrapper1
+{
+	/*margin-top: 70px;*/
+	height: 80%;
+	margin-bottom: 30px;
+	padding: 70px;
+}
+
+.prim
+{
+	height: 10%;
+}
+
+/*****************************/
+/********HISTORY**************/
+/*****************************/
+
+.img-cont
+{
+	border-radius: 5px;
+}
+
+.img-1.history{
+	background-image: url(../images/history/1.jpg);
+	height: 400px;
+	width: 300px;
+	float: right;
+	margin-left: 10px;
+}
+
+
+.box-expanded .img-cont.img-1.history
+{
+	height: 500px;
+	width: 400px;
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+.img-2.history{
+	background-image: url(../images/history/2.jpg);
+	height: 300px;
+	float: left;
+}
+
+.img-3.history
+{
+	background-image: url(../images/history/3.jpg);
+	height: 300px;
+	width: 400px;
+	float: right;
+	margin-left: 10px;
+}
+
+.box-expanded .img-cont.img-3.history
+{
+	height: 400px;
+	width: 600px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+.img-4.history
+{
+	background: url(../images/history/4.jpg) no-repeat center center;
+	height: 400px;
+	float: left;
+}
+
+.img-5.history
+{
+	background: url(../images/history/5.jpg);
+	height: 300px;
+	float: right;
+}
+
+.box-expanded .img-cont.img-5.history
+{
+	margin-left: 20px;
+}
+
+.img-6.history{
+	background-image: url(../images/history/6.jpg);
+	height: 400px;
+	width: 300px;
+	float: right;
+	margin-left: 15px;
+}
+
+
+.box-expanded .img-cont.img-6.history
+{
+	height: 500px;
+	width: 350px;
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+/*****************************/
+/**********RUSSIA*************/
+/*****************************/
+
+.page.cover .f-cover-story.russia
+{
+	color: rgba(0,0,0,.9);
+}
+
+.img-1.russia
+{
+	background-image: url(../images/russia/1.jpg);
+	float: right;
+	width: 300px;
+	height: 450px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+.img-2.russia
+{
+	background-image: url(../images/russia/2.jpg);
+	background-position: center center;
+	width: 100%;
+	height: 350px;
+}
+
+.box-expanded .img-cont.img-2.russia
+{
+	float: right;
+	width: 700px;
+	height: 400px;
+	margin-left: 20px;
+}
+
+.img-3.russia
+{
+	background-image: url(../images/russia/3.jpg);
+	/*background-position: center center;*/
+	height: 400px;
+	width: 100%;
+}
+
+.box-expanded .img-cont.img-3.russia
+{
+	float: right;
+	width: 700px;
+	margin-left: 20px;
+}
+
+.img-4.russia
+{
+	background-image: url(../images/russia/4.jpg);
+	height: 400px;
+	width: 100%;
+}
+
+.box-expanded .img-cont.img-4.russia
+{
+	float: right;
+	width: 700px;
+	margin-left: 20px;
+}
+
+/*****************************/
+/**********SARATOV************/
+/*****************************/
+
+.img-1.saratov
+{
+	background-image: url(../images/saratov/1.jpg);
+	height: 200px;
+	width: 200px;
+	float: right;
+	margin-left: 10px
+}
+
+.box-expanded .img-cont.img-1.saratov
+{
+	margin-left: 20px;
+}
+
+.img-2.saratov
+{
+	background-image: url(../images/saratov/2.jpg);
+	background-position: center center;
+	height: 450px;
+	float: left;
+}
+
+.img-3.saratov
+{
+	background-image: url(../images/saratov/3.png);
+	height: 350px;
+	width: 250px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.box-expanded .img-cont.img-3.saratov
+{
+	margin-right: 20px
+}
+
+.img-4.saratov
+{
+	background-image: url(../images/saratov/4.jpg);
+	height: 300px;
+	width: 450px;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.box-expanded .img-cont.img-4.saratov
+{
+	margin-left: 20px;
+	height: 400px;
+	width: 600px;
+}
+
+.img-5.saratov
+{
+	background-image: url(../images/saratov/5.jpg);
+	height: 300px;
+	float: left;
+	margin-right: 10px;
+}
+
+.box-expanded .img-cont.img-5.saratov
+{
+	margin-right: 20px;
+}
+
+/*****************************/
+/************NBA**************/
+/*****************************/
+
+.page.cover .f-cover-story.nba
+{
+	color: rgba(0,0,0,.9);
+}
+
+.img-1.nba
+{
+	background-image: url(../images/NBA/1.jpg);
+}
+
+.box-expanded .img-cont.img-1.nba
+{
+	width: 40%;
+	height: 500px;
+}
+
+.img-2.nba
+{
+	background-image: url(../images/NBA/2.png);
+	float: right;
+	height: 50%;
+	width: 50%;
+	margin-left: 10px;
+}
+
+.box-expanded .img-cont.img-2.nba
+{
+	height: 392px;
+	width: 400px;
+}
+
+.img-3.nba
+{
+	background-position: center center;
+	background-image: url(../images/NBA/3.jpg);
+	width: 100%;
+	height: 350px;
+}
+
+.box-expanded .img-cont.img-3.nba
+{
+	background-position: top center;
+	height: 300px;
+	width: 500px;
+	float: right;
+	margin-left: 20px;
+}
+
+.img-4.nba
+{
+	background-image: url(../images/NBA/4.jpg);
+	height: 300px;
+	width: 100%;
+}
+
+.box-expanded .img-cont.img-4.nba
+{
+	height: 200px;
+	width: 50%;
+	float: left;
+}
+
+.img-5.nba
+{
+	background-image: url(../images/NBA/5.jpg);
+	float: left;
+	height: 250px;
+	width: 400px;
+	margin-right: 10px;
+}
+
+.box-expanded .img-cont.img-5.nba
+{
+	width: 50%;
+	height: 450px;
+	margin-right: 20px;
+}
+
+.img-6.nba
+{
+	background-image: url(../images/NBA/6.jpg);
+	float: left;
+	height: 500px;
+	width: 350px;
+	margin-right: 10px;
+}
+
+.img-7.nba
+{
+	background-image: url(../images/NBA/7.jpg);
+	height: 400px;
+	width: 100%;
+}
+
+.box-expanded .img-cont.img-7.nba
+{
+	float: right;
+	height: 400px;
+	width: 50%;
+	margin-left: 20px;
+}
+
+.img-8.nba
+{
+	background-position: center center;
+	background-image: url(../images/NBA/8.jpg);
+	width: 100%;
+	height: 300px;
+}
+
+.box-expanded .img-cont.img-8.nba
+{
+	float: left;
+	height: 300px;
+	width: 700px;
+}
+
+/*****************************/
+/**********LEGENDS************/
+/*****************************/
+
+.img-1.legends
+{
+	background-image: url(../images/legends/1.jpg);
+	background-position: center center;
+	margin-left: 13px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 400px;
+}
+
+.box-expanded .img-cont.img-1.legends
+{
+	float: right;
+	margin-left: 20px;
+	width: 370px;
+	height: 500px;
+}
+
+.img-2.legends
+{
+	background-image: url(../images/legends/2.jpg);
+	background-position: center center;
+	width: 100%;
+	height: 425px;
+}
+
+.box-expanded .img-cont.img-2.legends
+{
+	float: right;
+	width: 600px;
+	margin-left: 20px;
+}
+
+.img-3.legends
+{
+	background-image: url(../images/legends/3.jpg);
+	width: 300px;
+	height: 500px;
+	float: left;
+	margin-right: 10px;
+}
+
+.img-4.legends
+{
+	background-image: url(../images/legends/4.jpg);
+	float: left;
+	width: 430px;
+	height: 300px;
+	margin-right: 10px;
+}
+
+.img-5.legends
+{
+	background-image: url(../images/legends/5.jpg);
+	float: right;
+	width: 270px;
+	height: 450px;
+	margin-left: 10px;
+}
+
+.img-6.legends
+{
+	background-image: url(../images/legends/6.jpg);
+	background-position: center center;
+	width: 100%;
+	height: 400px;
+}
+
+.box-expanded .img-cont.img-6.legends
+{
+	float: left;
+	width: 700px;
+	height: 500px;
+	margin-right: 20px;
+}
+
+.img-7.legends
+{
+	background-image: url(../images/legends/7.jpg);
+	width: 100%;
+	height: 400px;
+}
+
+.box-expanded .img-cont.img-7.legends
+{
+	float: left;
+	width: 700px;
+	height: 400px;
+	margin-right: 20px;
+}
+
+.img-8.legends
+{
+	background-image: url(../images/legends/8.jpg);
+	width: 100%;
+	height: 400px;
+}
+
+.box-expanded .img-cont.img-8.legends
+{
+	background-position: center center;
+	float: left;
+	height: 500px;
+	width: 700px;
+	margin-right: 20px;
+}
+
+/*****************************/
+/**********STARS**************/
+/*****************************/
+
+.img-1.stars
+{
+	background-image: url(../images/stars/1.jpg);
+	height: 400px;
+	width: 350px;
+	float: left;
+	margin-right: 10px;
+}
+
+.box-expanded .img-cont.img-1.stars
+{
+	margin-right: 20px;
+	height: 500px;
+	width: 700px;
+}
+
+.img-2.stars
+{
+	background-image: url(../images/stars/2.jpg);
+	background-position: center center;
+	height: 400px;
+	float: left;
+}
+
+.box-expanded .img-cont.img-2.stars
+{
+	margin-right: 20px;
+	height: 500px;
+	width: 750px;
+}
+
+.img-3.stars
+{
+	background-image: url(../images/stars/3.jpg);
+	background-position: top center;
+	height: 350px;
+}
+
+.box-expanded .img-cont.img-3.stars
+{
+	height: 400px;
+	width: 700px;
+}
+
+.img-4.stars
+{
+	background-image: url(../images/stars/4.jpg);
+	height: 300px;
+	width: 400px;
+	float: right;
+	margin-left: 10px;
+}
+
+.box-expanded .img-cont.img-4.stars
+{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	height: 400px;
+	width: 600px;
+}
+
+.img-5.stars
+{
+	background-image: url(../images/stars/5.jpg);
+	height: 300px;
+	width: 450px;
+	float: right;
+	margin-left: 10px;
+}
+
+.box-expanded .img-cont.img-5.stars
+{
+	height: 400px;
+	width: 600px;
+	margin-left: 20px;
+}
+
+.img-6.stars
+{
+	background-image: url(../images/stars/6.jpg);
+	height: 300px;
+	width: 450px;
+	float: left;
+	margin-right: 10px;
+}
+
+.box-expanded .img-cont.img-6.stars
+{
+	height: 400px;
+	width: 700px;
+	margin-right: 20px;
+}
+
+.img-7.stars
+{
+	background-image: url(../images/stars/7.jpg);
+	height: 400px;
+	float: left;
+}
+
+.box-expanded .img-cont.img-7.stars
+{
+	width: 700px;
+	height: 500px;
+	margin-right: 20px;
+}
+
+.img-8.stars
+{
+	background-image: url(../images/stars/8.jpg);
+	height: 400px;
+	width: 350px;
+	float: right;
+	margin-left: 10px;
+}
+
+.box-expanded .img-cont.img-8.stars
+{
+	width: 400px;
+	height: 500px;
+	margin-left: 20px;
+}
+
+/**************************/
+/*********RULES************/
+/**************************/
+
+.img-cover
+{
+	background: url(../images/rules/cover.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 288px;
+	width: 587px;
+	margin: 0 auto;
+}

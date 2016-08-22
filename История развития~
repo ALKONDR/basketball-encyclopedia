@@ -1,0 +1,6 @@
+http://ref.by/refs/89/39511/1.html
+http://www.offsport.ru/basketball/52/
+.page.cover .front .content{
+	background: #ddd url(../images/history/cover.jpg) no-repeat center center;
+	background-size: cover;
+}
